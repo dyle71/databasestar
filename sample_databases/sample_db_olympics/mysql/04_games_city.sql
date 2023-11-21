@@ -7,7 +7,7 @@ CREATE TABLE olympics.games_city (
   CONSTRAINT fk_gci_gam FOREIGN KEY (games_id) REFERENCES olympics.games (id)
 );
 
-INSERT INTO games_city (games_id, city_id) VALUES
+INSERT INTO olympics.games_city (games_id, city_id) VALUES
 (1,1),
 (2,2),
 (3,3),
